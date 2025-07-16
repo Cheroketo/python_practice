@@ -13,5 +13,5 @@ def two_Max_two_Min(lst):
             min1 = element
         elif element < min2:
             min2 = element
-    return max1*max2 > min1+min2
+    return max1+max2 < min1*min2
 print(two_Max_two_Min([1,2,3,4,5]))
